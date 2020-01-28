@@ -1,0 +1,482 @@
+body{
+    font-family: 'Open Sans';
+    font-size: 0.9rem;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
+}
+
+/* Navigation Bar Styling */
+
+header {
+   display: flex;
+   justify-content: space-between;
+    padding: 2em;
+    
+
+}
+
+.nav-bar-left img {
+    padding-left: 1.5em;
+    width: 8em;
+}
+
+.nav-bar-right a {
+    padding-right: 2.5em;
+    text-decoration: none;
+    color: white;
+}
+.header-con {
+    background-color: hsl(217, 28%, 15%);
+}
+
+
+/* --------
+Mobile Responsiveness Navigation Bar Styling
+ ------- */
+
+
+ @media (max-width: 990px) {
+    .nav-bar-left img {
+        width: 5em;
+    }
+
+    .nav-bar-right a {
+        font-size: 0.5rem;
+        font-family: 'Raleway', sans-serif;
+    }
+ }
+
+ /* ---------------
+ Introduction Page Styling
+ ----------------- */
+ 
+ .intro-img {
+     display: block;
+     width: 40%;
+     margin: auto;
+ }
+
+
+  .intro-info-con {
+     background-image: url(/images/bg-curvy-desktop.svg);
+     background-size: cover;
+     width: 100%;
+     height: 35em;
+     text-align: center;
+     
+     
+   
+ }
+
+ .intro-info-header {
+     font-size: 2.5em;
+     font-weight: bolder;
+    
+ }
+
+ .intro-info-details {
+     line-height: 1.7em;
+     width: 25%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .intro-info-button {
+     width: 16em;
+     height: 3.5em;
+     background-color: hsl(198, 60%, 50%);
+     border: none;
+     border-radius: 2em;
+     color: white;
+     cursor: pointer;
+ }
+
+ .intro-info-button:hover {
+     background-color: black;
+ }
+
+ /* --------
+Mobile Responsiveness Intro Info  Styling
+ ------- */
+
+
+ @media (max-width: 990px) {
+
+     .intro-info-con {
+         background-image: url(/images/bg-curvy-mobile.svg);
+        width: 100%;
+        height: 20em;
+         
+     }
+
+     .intro-info-header {
+         font-size: 1.8em;
+     }
+     .intro-info-details {
+         width: 80%;
+     }
+     .intro-info-button {
+         width: 60%;
+     }
+ }
+
+ .main-container {
+     background-color: hsl(218, 28%, 13%);
+     ;
+ }
+
+ .main-container-col-con {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ 
+
+ .main-container-col-img {
+     display: block;
+     margin: auto;
+     margin-top: 3em;
+ }
+
+ .main-container-col p, h3 {
+     text-align: center;
+
+ }
+
+ .main-container-col-2, .main-container-col-info {
+     text-align: center;
+ }
+
+  /* --------
+Mobile Responsiveness Main   Styling
+ ------- */
+
+
+ @media (max-width: 990px) {
+     .main-container-col-con {
+         flex-direction: column;
+         width: 100%;
+        
+     }
+
+     .main-container-col-img{
+         margin-top: 5em;
+     }
+
+     .main-container-col-img {
+         width: 18%;
+     }
+
+    }
+
+     /* ---------------
+ Aside Page Styling
+ ----------------- */
+
+ .main-aside-con {
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 10em;
+     padding-top: 5em;
+    
+ }
+
+ .main-aside-col-header {
+     text-align: left;
+     font-size: 1.8em;
+ }
+
+ .main-aside-col-info {
+     font-weight: 300;
+
+ }
+
+ .main-aside-link {
+     color: hsl(176, 68%, 64%);
+     font-weight: 700;
+
+ }
+
+
+  /* --------
+Mobile Responsiveness Aside  Styling
+ ------- */
+
+
+ @media (max-width: 990px) {
+    .main-aside-con {
+        flex-direction: column;
+    }
+    .main-aside-col {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .main-aside-col-img {
+        width: 100%;
+    }
+}
+
+
+/* --------
+testimony Styling
+ ------- */
+
+ .testimony-section-col {
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 10em;
+     padding-bottom: 20em;
+     position: relative;
+     
+ }
+ .testimony-col {
+     width: 23%;
+     background-color: hsl(219, 30%, 18%);
+     padding: 2.3em 0.5em 2em 2em;
+    
+ }
+
+ .testimony-col p {
+     font-size: 0.9em;
+     font-weight: 400;
+ }
+
+ .testimony-profile {
+     display: flex;
+ }
+
+ .testimony-profile img {
+     width: 10%;
+     height: 10%;
+     border-radius: 50%;
+ }
+
+ .testimony-profile p {
+     margin: 0;
+     padding-left: 1em;
+     font-size: 0.8em;
+     font-weight: 400;
+ }
+
+ .testimony-con-quote {
+     position: absolute;
+     margin-left: 4.5em;
+     margin-top: 9em;
+     width: 3em;
+     
+ }
+
+ /* --------
+Mobile Responsiveness Aside  Styling
+ ------- */
+
+
+ @media (max-width: 990px) {
+ .testimony-section-col {
+        flex-direction: column;
+        
+     }
+     
+ .testimony-col {
+     width: 60%;
+     display: block;
+     margin: auto;
+     margin-top: 2em;
+ }
+
+ .testimony-con-quote {
+     margin-top: 10.5em;
+ }
+}
+
+/* --------
+Email Sign Up Styling
+ ------- */
+
+ .email-sign-up-con {
+     width: 60%;
+     position: absolute;
+     left: 25%;
+     background-color:  hsl(217, 28%, 15%);
+     top: 80%;
+     padding: 1em;
+     text-align: center;
+ }
+
+
+.email-sign-up-con h3 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0.3em;
+}
+
+.email-sign-up-con p {
+    font-size: 0.8em;
+    margin-bottom: 3em;
+}
+
+.email-sign-up-con input {
+    width: 25em;
+    height: 2.5em;
+    border-radius: 3em;
+    border: none;
+    margin-right: 1.5em;
+}
+
+.email-sign-up-con button {
+    width: 13em;
+    height: 2.5em;
+    border-radius: 3em;
+    border: none;
+    color: white;
+    background-color: hsl(198, 60%, 50%) ;
+
+}
+
+form {
+    margin: 1em;
+}
+
+  /* --------
+Mobile Responsiveness Email Sign Up   Styling
+ ------- */
+
+
+ @media (max-width: 990px) {
+     
+    .email-sign-up-con {
+        width: 80%;
+        left: 10%;
+    }
+
+    form {
+        display: block;
+    }
+
+    .email-sign-up-con button {
+        width: 20em;
+        margin-top: 2em;
+        margin-right: 1.5em;
+    }
+    .email-sign-up-con input {
+        width: 20em;
+       border-right: 0;
+    }
+
+}
+
+ /* --------
+Footer  Styling
+ ------- */
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+     padding-top: 15em;
+     padding-bottom: 5em;
+}
+ .footer-col-con {
+     display: flex;
+     width: 100%;
+     justify-content: space-evenly;
+     
+ }
+ .footer-logo {
+     margin: 6em 0 4em 6em;
+ }
+
+ .footer-col-1 {
+     width: 15%;
+     
+ }
+
+
+ .footer-col-2 {
+     width: 15%;
+ }
+
+
+ .footer-col-3 {
+     width: 8%;
+ }
+ 
+ .footer-col-1-con {
+     display: flex;
+     margin-top: 0.5em;
+ }
+ 
+ .footer-col-1-con img {
+     height: 1em;
+     padding-right: 2em;
+     margin-top: 0.3em;
+ }
+
+ .footer-col-1-con p {
+     margin: 0;
+ }
+
+ .footer-col-subcol {
+     display: flex;
+ }
+
+ .footer-col-subcol img {
+     height: 1em;
+     margin: 1em;
+     padding-right: 1em;
+ }
+
+ 
+ 
+ .footer-social-col img {
+     width: 2em;
+     padding: 0.5em;
+     fill: white;
+     
+ }
+
+ .footer-col-3 p {
+    line-height: 2.8em;
+    margin: 0;
+ }
+
+  /* --------
+Mobile Responsiveness Footer  Styling
+ ------- */
+
+
+ @media (max-width: 990px) {
+
+    footer {
+        margin-bottom: 0;
+    }
+     .footer-col-con {
+         flex-direction: column;
+     }
+     .footer-col-1, .footer-col-2, .footer-col-3 {
+         width: 60%;
+     }
+
+     .footer-col-1-con {
+         margin-left: 1em;
+     }
+
+
+
+     .footer-col-3 p {
+         margin-left: 1em;
+         line-height: 2em;
+         padding-top: 3em;
+     }
+
+
+     .footer-social-col {
+         margin-top: 10%;
+         margin-left: 40%;
+         margin-bottom: 0;
+     }
+ 
+
+ 
