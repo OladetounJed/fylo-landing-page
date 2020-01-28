@@ -41,10 +41,12 @@ Mobile Responsiveness Navigation Bar Styling
  @media (max-width: 990px) {
     .nav-bar-left img {
         width: 5em;
+        padding-left: 1em;
     }
 
     .nav-bar-right a {
         font-size: 0.5rem;
+        padding-right: 1.5em;
         font-family: 'Raleway', sans-serif;
     }
  }
@@ -264,8 +266,8 @@ testimony Styling
 
  .testimony-con-quote {
      position: absolute;
-     margin-left: 4.5em;
-     margin-top: 9em;
+     margin-left: 3.5em;
+     margin-top: 8em;
      width: 3em;
      
  }
@@ -289,7 +291,8 @@ Mobile Responsiveness Aside  Styling
  }
 
  .testimony-con-quote {
-     margin-top: 10.5em;
+     margin-top: 10em;
+     margin-left: 2em;
  }
 }
 
@@ -350,7 +353,8 @@ Mobile Responsiveness Email Sign Up   Styling
      
     .email-sign-up-con {
         width: 80%;
-        left: 10%;
+        left: 5%;
+        right: 5%;
     }
 
     form {
@@ -358,12 +362,12 @@ Mobile Responsiveness Email Sign Up   Styling
     }
 
     .email-sign-up-con button {
-        width: 20em;
+        width: 95%;
         margin-top: 2em;
         margin-right: 1.5em;
     }
     .email-sign-up-con input {
-        width: 20em;
+        width: 95%;
        border-right: 0;
     }
 
